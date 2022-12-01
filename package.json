@@ -1,0 +1,13 @@
+{
+  "name": "dev-company-comparison",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/koremp/dev-company-comparison",
+  "author": "Dokyun Lim <im.koremp@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite", // start dev server, aliases: `vite dev`, `vite serve`
+    "build": "vite build", // build for production
+    "preview": "vite preview" // locally preview production build
+  }
+}
