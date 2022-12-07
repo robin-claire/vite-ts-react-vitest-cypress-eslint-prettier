@@ -1,9 +1,5 @@
 const CompanyList = () => {
-  return (
-    <p>
-      Company List
-    </p>
-  )
-}
+  return <p>Company List</p>;
+};
 
-export default CompanyList
+export default CompanyList;

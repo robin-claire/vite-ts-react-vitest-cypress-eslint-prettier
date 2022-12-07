@@ -1,10 +1,10 @@
-import { render } from '@testing-library/react';
-import Filter from '../Filter';
+import { render } from "@testing-library/react";
+import Filter from "../Filter";
 
-describe('Filter', () => {
-  it('renders filter.', () => {
+describe("Filter", () => {
+  it("renders filter.", () => {
     const { getByText } = render(<Filter />);
 
-    expect(getByText('Filter')).not.toBeNull();
-  })
-})
+    expect(getByText("Filter")).not.toBeNull();
+  });
+});

@@ -5,6 +5,6 @@ const Intro = () => {
       <p>회사의 문화를 보여주는 사이트</p>
     </div>
   );
-}
+};
 
 export default Intro;
